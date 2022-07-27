@@ -7,7 +7,7 @@ Are there more visits to the Emergency Department for foreign objects in patient
 General exploration of the NEISS data. Who is going to the Emergency Department for having foreign objects in their bodies? Which body parts are the most commonly injured and which objects are people getting stuck in their bodies? Are there any clear differences between visits involving adults and children? 
  
  
-##Data Dictionaries
+## Data Dictionaries
 
 
 | Field        | Definition           | Description of Codes  |
