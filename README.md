@@ -55,15 +55,29 @@ Cleaned up NEISS data was saved as a csv and used to create a Tableau dashboard.
  
  
 ## Setup
+
+### pip setup 
 Clone this repository.
  
+Create a virtual environment
+python -m venv neiss-env
+
+Activate your environment
+
+Windows:
+ . neiss-env/Scripts/activate
+
+Mac/Linux:
+source neiss-env/bin/activate 
+
+#### Requirements
 This project uses Python 3.9.7
- 
-### Requirements
+
 Before starting, install the project's dependencies with
 ```pip install -r requirements.txt```
  
-If this is unsuccessful due to a missing wordcloud wheel file for your operating system/python version, you can try to install wordcloud with [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) and the remainder with pip by entering these commands into your terminal:
+### conda setup
+If pip setup is unsuccessful due to a missing wordcloud wheel file for your operating system/python version, you can try to install wordcloud with [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) and the remainder with pip by entering these commands into your terminal:
  
 Steps to create a conda environment named neiss-env are listed below.
  
@@ -91,6 +105,12 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 ### Environment
 This project utilizes Jupyter Notebook and can be run in a Jupyter Notebook or displayed using the Jupyter Notebook add on to VS Code. 
  
+##  Run Notebook
+From the command line, launch Jupyter Notebook 
+```jupyter notebook```
+
+open `very_neiss.ipynb`
+
 ### Data Sources
 Visual Crossing Corporation. Visual Crossing Weather. 2017-2021, https://www.visualcrossing.com/. Accessed June 26, 2022.
  
