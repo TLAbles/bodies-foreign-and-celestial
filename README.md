@@ -90,7 +90,7 @@ conda activate neiss-env
  
 Step 3: Install the packages
 ```conda install -c conda-forge wordcloud
-pip install emoji bokeh pandas-bokeh datetime numpy pandas seaborn matplotlib wordcloud 
+pip install emoji bokeh pandas-bokeh datetime notebook numpy pandas seaborn matplotlib wordcloud 
 ```
  
 Step 4: After activating the neiss-env, check the packages that are installed using the command
